@@ -122,6 +122,7 @@ export default function HomePage() {
     }
 
     useEffect(()=>{
+        document.title="ToDo | Homepage"
         getTodos();
     }, []);
 

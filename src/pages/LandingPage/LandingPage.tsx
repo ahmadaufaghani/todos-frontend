@@ -31,6 +31,7 @@ export default function LandingPage() {
     }
 
     useEffect(()=>{
+        document.title = "ToDo - Landing Page"
         getStats();
     },[])
 

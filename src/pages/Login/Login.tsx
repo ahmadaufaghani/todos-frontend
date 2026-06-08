@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { useAuth } from "../../utils/auth";
 import { ClipLoader } from "react-spinners";
 import {NavLink} from "react-router";
@@ -18,6 +18,10 @@ export default function Login() {
                 setIsLoading(false);
         },2500)
     }
+
+    useEffect(() => {
+        document.title= "ToDo - Login"
+    },[])
 
     return (
         <div className="login-page d-flex vh-100 justify-content-center align-items-center">

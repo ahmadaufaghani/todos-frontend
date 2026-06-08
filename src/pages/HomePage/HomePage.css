@@ -1,3 +1,6 @@
+.card {
+  margin-top: 18vh !important;
+}
 .line {
     text-decoration: line-through !important;
 }

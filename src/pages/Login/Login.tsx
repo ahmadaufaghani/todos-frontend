@@ -24,7 +24,7 @@ export default function Login() {
     },[])
 
     return (
-        <div className="login-page d-flex vh-100 justify-content-center align-items-center">
+        <div className="login-page d-flex justify-content-center">
       <div className="card shadow login-page-content p-5 m-3">
         <h4 className="mb-4 fw-semibold text-center">Login</h4>
         <div>

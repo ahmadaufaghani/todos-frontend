@@ -131,7 +131,7 @@ export default function HomePage() {
     },[todos]);
 
   return (
-    <div className="landing-page d-flex vh-100 justify-content-center align-items-center">
+    <div className="landing-page d-flex justify-content-center">
       <div className="card shadow landing-page-content p-5 m-3">
             <div className="d-flex justify-content-between">
                 <h5 className="text-left mb-4">To-do</h5>

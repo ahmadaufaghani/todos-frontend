@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios, {AxiosError} from 'axios';
-import {useNavigate} from 'react-router-dom';
+import {useNavigate} from 'react-router';
 import "../LandingPage/LandingPage.css"
 
 export default function LandingPage() {

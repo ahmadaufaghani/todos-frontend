@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useAuth } from "../../utils/auth";
 import { ClipLoader } from "react-spinners";
-import {NavLink} from 'react-router-dom';
+import {NavLink} from 'react-router';
 
 import "../Register/Register.css";
 

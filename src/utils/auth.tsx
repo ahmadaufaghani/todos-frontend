@@ -82,7 +82,7 @@ export const AuthProvider = ({children} : {children : React.ReactNode}) => {
 
     const login = async (username: string, password: string) => {
         try {
-            const data = await axios.post<UserPayload>(
+            await axios.post<UserPayload>(
                 "https://todosbackendapi.azurewebsites.net//api/users/login",
                 {
                     username: username,

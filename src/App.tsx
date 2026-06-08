@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min'; 
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router';
 import { AuthProvider } from './utils/auth';
 import { ToastContainer } from 'react-toastify';
 import Login from './pages/Login/Login';

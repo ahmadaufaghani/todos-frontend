@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
 import axios, {AxiosError} from 'axios';
 import {useNavigate} from 'react-router-dom';
 import "../LandingPage/LandingPage.css"

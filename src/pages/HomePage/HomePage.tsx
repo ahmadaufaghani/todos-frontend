@@ -92,7 +92,7 @@ export default function HomePage() {
         try {
             await axios.patch<TodoPayload>(`https://todosbackendapi.azurewebsites.net/api/todos/${id}`,
             {
-                status : (val == "done") ? "undone" : "done"
+                status : (val === "done") ? "undone" : "done"
             },   
             {
                 headers: {
@@ -123,7 +123,7 @@ export default function HomePage() {
 
     useEffect(()=>{
         getTodos();
-    },[]);
+    }, []);
 
     useEffect(()=>{
         getTodos();

@@ -1,6 +1,7 @@
+.card {
+    width: 390px;
+}
+
 .card .highlight {
   color: rgb(81, 140, 160);
-}
-.landing-page-content {
-  width: 600px;
 }

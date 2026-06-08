@@ -170,8 +170,8 @@ export default function HomePage() {
                                 {val.content}
                             </span>
                         </div>
-                        <div className="d-flex gap-2">
-                            <button className="btn fw-semibold" onClick={()=>{
+                        <div className="d-flex">
+                            <button className="btn btn-sm fw-semibold" onClick={()=>{
                                 if(!todoId) {
                                     setContent(val.content);
                                     setTodoId(val.id);
@@ -180,7 +180,7 @@ export default function HomePage() {
                                     setTodoId(0);
                                 }
                             }}>{todoId? "Cancel": "Edit"}</button>
-                            <button className="btn fw-semibold" onClick={() => deleteTodo(val.id)}>Delete</button>
+                            <button className="btn btn-sm fw-semibold" onClick={() => deleteTodo(val.id)}>Delete</button>
                         </div>
                     </div>
                 )

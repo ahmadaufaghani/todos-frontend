@@ -36,7 +36,7 @@ export default function LandingPage() {
     },[])
 
   return (
-    <div className="landing-page d-flex vh-100 justify-content-center align-items-center">
+    <div className="landing-page d-flex justify-content-center">
       <div className="card shadow landing-page-content text-center p-5 m-3">
         <h4 className="mb-4 fw-bold">Welcome to To<span className="highlight">Do</span>.</h4>
         <p className="text-secondary mb-4" >Boost your day to day activities with us and say goodbye to your skipped activity.</p>
